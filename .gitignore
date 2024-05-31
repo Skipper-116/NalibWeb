@@ -1,0 +1,34 @@
+# Ignore build output
+/bin/
+/obj/
+
+# Ignore NuGet packages
+/packages/
+
+# Ignore Visual Studio files
+.vs/
+*.suo
+*.user
+*.userprefs
+*.vscode
+
+# Ignore JetBrains Rider files
+.idea/
+*.sln.iml
+
+# Ignore Node.js files
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore compiled CSS and JavaScript files
+wwwroot/css/
+wwwroot/js/
+
+# Ignore logs
+*.log
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
