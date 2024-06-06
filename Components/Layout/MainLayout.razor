@@ -3,7 +3,13 @@
 <MudThemingProvider />
 <MudLayout>
     <MudAppBar Elevation="1">
-        <MudText Typo="Typo.h5" Class="ml-3">NaLib App</MudText>
+        <MudText Typo="Typo.h5" Class="ml-3">NaLib</MudText>
+        <MudNavMenu Class="mt-16 pa-4">
+            <MudNavGroup Title="Settings" Expanded="false">
+                <MudNavLink Href="/users">Users</MudNavLink>
+                <MudNavLink Href="/security">Security</MudNavLink>
+            </MudNavGroup>
+        </MudNavMenu>
     </MudAppBar>
     <MudDrawer @bind-Open="_drawerOpen" ClipMode="DrawerClipMode.Always" Elevation="2">
         <NavMenu />
